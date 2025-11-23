@@ -58,7 +58,7 @@ package main
 
 import (
     "fmt"
-    "github.com/r1x0s/go-useragent-utils/pkg/useragent"
+    useragent "github.com/r1x0s/go-useragent-utils/generator"
 )
 
 func main() {
