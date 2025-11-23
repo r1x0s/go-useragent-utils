@@ -90,7 +90,7 @@ func TestGenerate(t *testing.T) {
 		// Test "133.0.6943.10000" (should likely fail if we don't have it, or pass if we do)
 		// In our data we have 133.0.6943.[53, 98, 126, 141].
 		// So 133.0.6943.10000 should result in error (no versions found)
-		_, err = g.Generate(WithMinVersion("133.0.6943.10000"))
+		_, err = g.Generate(WithMinVersion("199.0.6943.10000"))
 		if err == nil {
 			t.Error("Expected error for very high version, got nil")
 		}
