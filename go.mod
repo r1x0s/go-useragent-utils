@@ -1,4 +1,4 @@
-module github.com/r1xos/go-useragent-utils
+module github.com/r1x0s/go-useragent-utils
 
 go 1.25.3
 

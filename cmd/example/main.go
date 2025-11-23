@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	useragent "github.com/r1xos/go-useragent-utils/generator"
+	useragent "github.com/r1x0s/go-useragent-utils/generator"
 )
 
 func main() {
